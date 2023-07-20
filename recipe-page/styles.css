@@ -8,3 +8,7 @@ body {
     color: rgb(24, 24, 151);
     font-family: Poppins, sans-serif;
 }
+
+.description {
+    width: 600px;
+}
