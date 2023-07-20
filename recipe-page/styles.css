@@ -16,4 +16,12 @@ body {
 .left {
     width: 600px;
     float: left;
+    background-color: rgba(243, 240, 231, 0.945);
+}
+
+.right {
+    width: 600px;
+    float: left;
+    background-color: rgba(243, 240, 231, 0.945);
+    margin-left: 30px;
 }
