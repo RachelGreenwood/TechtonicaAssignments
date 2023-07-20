@@ -6,4 +6,5 @@ body {
 .main {
     background-color: rgba(243, 240, 231, 0.945);
     color: rgb(24, 24, 151);
+    font-family: Poppins, sans-serif;
 }
