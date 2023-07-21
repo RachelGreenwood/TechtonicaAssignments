@@ -1,12 +1,12 @@
 body {
     background-image: url(https://i.pinimg.com/originals/b1/bd/c1/b1bdc1ae539dcbd1a7c33cef3e5f2d9a.gif);
     padding: 20px;
+    font-family: Poppins, sans-serif;
+    color: rgb(24, 24, 151);
 }
 
 .main {
     background-color: rgba(243, 240, 231, 0.945);
-    color: rgb(24, 24, 151);
-    font-family: Poppins, sans-serif;
 }
 
 .description {
@@ -24,4 +24,9 @@ body {
     float: left;
     background-color: rgba(243, 240, 231, 0.945);
     margin-left: 30px;
+}
+
+img {
+    border-radius: 1%;
+    border: 1px solid rgba(243, 240, 231, 0.945)
 }
