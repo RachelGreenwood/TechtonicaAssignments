@@ -13,6 +13,10 @@ main {
     width: 600px;
 }
 
+#creds {
+    font-size: 13px;
+}
+
 .left {
     width: 600px;
     float: left;
