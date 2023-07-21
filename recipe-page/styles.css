@@ -5,7 +5,7 @@ body {
     color: rgb(24, 24, 151);
 }
 
-.main {
+main {
     background-color: rgba(243, 240, 231, 0.945);
 }
 
@@ -29,4 +29,8 @@ body {
 img {
     border-radius: 1%;
     border: 1px solid rgba(243, 240, 231, 0.945)
+}
+
+a:hover {
+    color: white;
 }
