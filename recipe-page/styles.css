@@ -48,6 +48,10 @@ img {
     padding-left: 40px;
 }
 
+a {
+    color: rgb(24, 24, 151);
+}
+
 a:hover {
     color: white;
 }
