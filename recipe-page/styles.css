@@ -1,0 +1,57 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/b1/bd/c1/b1bdc1ae539dcbd1a7c33cef3e5f2d9a.gif);
+    padding: 20px;
+    font-family: Poppins, sans-serif;
+    color: rgb(24, 24, 151);
+}
+
+main {
+    background-color: rgba(243, 240, 231, 0.945);
+}
+
+h1 {
+    text-align: center;
+}
+
+.description {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#creds {
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.left {
+    margin: -16px -30px 80px 0px;
+    width: 600px;
+    float: left;
+    background-color: rgba(243, 240, 231, 0.945);
+}
+
+.right {
+    margin-top: -16px;
+    padding: 0px 376px 199px 30px;
+    width: 600px;
+    float: left;
+    background-color: rgba(243, 240, 231, 0.945);
+    margin-left: 30px;
+}
+
+img {
+    border-radius: 1%;
+    border: 1px solid rgba(243, 240, 231, 0.945)
+}
+
+.ingredients {
+    padding-left: 40px;
+}
+
+a {
+    color: rgb(24, 24, 151);
+}
+
+a:hover {
+    color: white;
+}
