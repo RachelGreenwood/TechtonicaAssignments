@@ -25,8 +25,11 @@ showBtn.innerHTML = "Show";
 showHold.appendChild(showBtn);
 
 //Hide text
+let otherText = document.getElementById('more');
+otherText.innerText = "";
 
 showBtn.addEventListener('click', function onClick(event) {
-  // Show text
-  //Make button say "Hide"
+  console.log(event.target);
+  otherText.innerText = "Hi";
+  showBtn.innerHTML = "Hide";
 })
