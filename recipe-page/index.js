@@ -17,3 +17,16 @@ doneBtn.addEventListener('click', function onClick(event) {
   msg.textContent = "Well done!";
   doneBtn.after(msg);
 })
+
+// Adds a toggle feature to show or hide the other recipes section
+let showHold = document.getElementById('other');
+let showBtn = document.createElement('button');
+showBtn.innerHTML = "Show";
+showHold.appendChild(showBtn);
+
+//Hide text
+
+showBtn.addEventListener('click', function onClick(event) {
+  // Show text
+  //Make button say "Hide"
+})
