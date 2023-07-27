@@ -26,10 +26,9 @@ showHold.appendChild(showBtn);
 
 //Hide text
 let otherText = document.getElementById('more');
-otherText.innerText = "";
+otherText.style = "visibility: hidden";
 
 showBtn.addEventListener('click', function onClick(event) {
   console.log(event.target);
-  otherText.innerText = "Hi";
-  showBtn.innerHTML = "Hide";
+  otherText.style = "visibility: visible";
 })
