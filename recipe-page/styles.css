@@ -61,4 +61,28 @@ a:hover {
 @media only screen 
     and (min-device-width: 375px)
     and (max-device-width: 667px) {
+        main {
+            width: auto;
+            margin: 5%;
+        }
+
+        .left {
+            width: 50%;
+            padding-right: 416px;
+        }
+
+        img {
+            margin-left: 40%;
+        }
+
+        .ingredients {
+            margin-left: auto;
+        }
+
+        .right {
+            width: 50%;
+            margin-top: -80px;
+            margin-left: 0px;
+            padding-right: 386px;
+        }
     }
