@@ -26,6 +26,8 @@ showHold.appendChild(showBtn);
 
 //Hide text
 let otherText = document.getElementById('more');
+otherText.style.visibility = "hidden"
+
 
 showBtn.addEventListener('click', () => {
   if (otherText.style.visibility === "hidden") {
