@@ -28,15 +28,17 @@ h1 {
     width: 600px;
     float: left;
     background-color: rgba(243, 240, 231, 0.945);
+    padding-bottom: 120px;
 }
 
 .right {
     margin-top: -16px;
-    padding: 0px 376px 199px 30px;
+    padding: 0px 379px 199px 30px;
     width: 600px;
     float: left;
     background-color: rgba(243, 240, 231, 0.945);
     margin-left: 30px;
+    margin-bottom: 100px;
 }
 
 img {

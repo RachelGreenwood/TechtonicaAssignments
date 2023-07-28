@@ -13,7 +13,7 @@ doneBtn.innerHTML = "Done";
 stepsDiv.appendChild(doneBtn);
 
 doneBtn.addEventListener('click', function onClick(event) {
-  let msg = document.createElement('p');
+  let msg = document.createElement('h2');
   msg.textContent = "Well done!";
   doneBtn.after(msg);
 })
@@ -26,9 +26,13 @@ showHold.appendChild(showBtn);
 
 //Hide text
 let otherText = document.getElementById('more');
-otherText.style = "visibility: hidden";
 
-showBtn.addEventListener('click', function onClick(event) {
-  console.log(event.target);
-  otherText.style = "visibility: visible";
+showBtn.addEventListener('click', () => {
+  if (otherText.style.visibility === "hidden") {
+    otherText.style.visibility = "visible";
+    showBtn.innerHTML = "Hide";
+  } else {
+    otherText.style.visibility = "hidden";
+    showBtn.innerHTML = "Show";
+  }
 })
