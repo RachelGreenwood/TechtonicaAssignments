@@ -9,13 +9,15 @@ let colorCh = document.querySelector('ol');
 // Adds a Done button that adds a congratulatory message when clicked
 let stepsDiv = document.querySelector('.steps');
 let doneBtn = document.createElement('button');
+let leftSide = document.querySelector(".left");
 doneBtn.innerHTML = "Done";
 stepsDiv.appendChild(doneBtn);
 
 doneBtn.addEventListener('click', function onClick(event) {
-  let msg = document.createElement('p');
+  let msg = document.createElement('h2');
   msg.textContent = "Well done!";
   doneBtn.after(msg);
+  leftSide.style = "padding-bottom: 120px";
 })
 
 // Adds a toggle feature to show or hide the other recipes section
@@ -27,7 +29,6 @@ showHold.appendChild(showBtn);
 //Hide text
 let otherText = document.getElementById('more');
 otherText.style.visibility = "hidden"
-
 
 showBtn.addEventListener('click', () => {
   if (otherText.style.visibility === "hidden") {
