@@ -1,3 +1,98 @@
 p {
     color: blue;
   }
+body {
+    background-image: url(https://i.pinimg.com/originals/b1/bd/c1/b1bdc1ae539dcbd1a7c33cef3e5f2d9a.gif);
+    padding: 20px;
+    font-family: Poppins, sans-serif;
+    color: rgb(24, 24, 151);
+}
+
+main {
+    background-color: rgba(243, 240, 231, 0.945);
+}
+
+h1 {
+    text-align: center;
+}
+
+.description {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#creds {
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.left {
+    margin: -16px -30px 80px 0px;
+    width: 600px;
+    float: left;
+    background-color: rgba(243, 240, 231, 0.945);
+    padding-bottom: 60px;
+}
+
+.right {
+    margin-top: -16px;
+    padding: 0px 379px 199px 30px;
+    width: 600px;
+    float: left;
+    background-color: rgba(243, 240, 231, 0.945);
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+img {
+    border-radius: 1%;
+    border: 1px solid rgba(243, 240, 231, 0.945)
+}
+
+.ingredients {
+    padding-left: 40px;
+}
+
+a {
+    color: rgb(24, 24, 151);
+}
+
+a:hover {
+    color: white;
+}
+
+
+
+@media only screen 
+    and (min-device-width: 375px)
+    and (max-device-width: 667px) {
+        main {
+            width: auto;
+            margin: 5%;
+        }
+
+        .left {
+            width: 50%;
+            padding-right: 416px;
+        }
+
+        img {
+            margin-left: 25%;
+        }
+
+        .ingredients {
+            margin-left: auto;
+        }
+
+        .right {
+            width: 50%;
+            margin-top: -80px;
+            margin-left: 0px;
+            padding-right: 386px;
+            margin-bottom: 10%;
+        }
+
+        button {
+            display: block;
+        }
+    }
