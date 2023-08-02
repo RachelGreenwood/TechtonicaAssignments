@@ -2,6 +2,7 @@ body {
     font-family: "DotGothic16";
     color: forestgreen;
     display: grid;
+    background-color: black;
 }
 
 img {
