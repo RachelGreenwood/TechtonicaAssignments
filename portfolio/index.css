@@ -65,12 +65,12 @@ div {
     grid-area: bullet2;
 }
 
-.projects {
+#projects {
     margin-left: auto;
     margin-right: auto;
 }
 
-.projects img {
+#projects img {
     width: 300px;
     display: block;
     margin-left: auto;
@@ -87,7 +87,7 @@ a {
     color: white;
 }
 
-.contact {
+#contact {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
