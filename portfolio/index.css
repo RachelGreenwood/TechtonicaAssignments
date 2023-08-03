@@ -5,6 +5,10 @@ body {
     background-color: black;
 }
 
+img {
+    width: 100px;
+}
+
 .me {
     width: 100px;
     border: 2px forestgreen solid;
@@ -38,9 +42,5 @@ form {
 }
 
 a {
-    color: brown;
-}
-
-.projects a {
     color: white;
 }
