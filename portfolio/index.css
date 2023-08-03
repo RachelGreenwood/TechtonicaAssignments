@@ -10,9 +10,27 @@ img {
     border: 2px forestgreen solid;
 }
 
-#about {
+#about .columns {
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "section1 section2" "bullet1 bullet2";
+}
+
+.section1 {
+    grid-area: section1;
+}
+
+.section2 {
+    grid-area: section2;
+}
+
+.bullet1 {
+    grid-area: bullet1;
+}
+
+.bullet2 {
+    grid-area: bullet2;
 }
 
 form {
