@@ -5,13 +5,36 @@ body {
     background-color: black;
 }
 
-img {
-    width: 100px;
+h1, h2 {
+    text-align: center;
+}
+
+div {
+    padding-bottom: 3%;
+}
+
+.first-impression {
+    display: grid;
+    grid-template-columns: 60% 30%;
+}
+
+.first-impression p {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: -300px;
+    text-align: center;
 }
 
 .me {
-    width: 100px;
+    display: block;
+    width: 300px;
     border: 2px forestgreen solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about {
+    margin-left: 5%;
 }
 
 #about .columns {
@@ -37,10 +60,43 @@ img {
     grid-area: bullet2;
 }
 
+.projects {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 form {
     font-family: "Silkscreen";
 }
 
 a {
     color: white;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.social img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.social p {
+    text-align: center;
+}
+
+#twitter {
+    margin-top: 45px;
 }
