@@ -40,3 +40,7 @@ form {
 a {
     color: brown;
 }
+
+.projects a {
+    color: white;
+}
