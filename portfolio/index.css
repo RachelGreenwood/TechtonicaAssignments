@@ -10,7 +10,7 @@ nav {
     top: 0;
     font-family: Silkscreen;
     background: url('https://s7d1.scene7.com/is/image/izotope/glitch-image?resMode=sharp2&wid=1500&');
-    width: 100vw;
+    width: 100%;
     height: 26px;
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.9);
 }
@@ -28,9 +28,10 @@ nav a:hover {
 .header {
     padding-top: 20%;
     margin-bottom: 20%;
+    text-align: center;
 }
 
-h1, h2 {
+h2 {
     text-align: center;
 }
 
@@ -107,7 +108,7 @@ a {
     color: white;
 }
 
-#contact {
+.contact {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -127,4 +128,51 @@ a {
 
 #twitter {
     margin-top: 45px;
+}
+
+
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px) {
+
+        body {
+            width: 50%;
+        }
+
+        .me {
+            margin-left: 0;
+        }
+
+        .first-impression p {
+            margin-left: -65%;
+        }
+
+        #about .columns {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
+            grid-template-areas: "section1 bullet1" "section2 bullet2";
+        }
+
+        .contact {
+            display: grid;
+            grid-template-columns: 50vw 50vw;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+
+        .social img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 10%;
+        }
+
+        form {
+            display: grid;
+            margin-top: 5%;
+        }
+
+        button {
+            width: 10%;
+        }
 }
