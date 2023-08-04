@@ -5,5 +5,4 @@ let list = document.getElementById('address');
         let option = document.createElement('option');
         option.innerHTML = (states[i]);
         list.append(option);
-        console.log(option);
     }
