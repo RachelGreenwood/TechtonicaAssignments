@@ -11,3 +11,10 @@ function coinFlip() {
 }
 
 console.log(coinFlip());
+
+
+// Creates button in the DOM
+let container = document.getElementById('coin-flip');
+let button = document.createElement('button');
+button.innerHTML = "Flip";
+container.append(button);
