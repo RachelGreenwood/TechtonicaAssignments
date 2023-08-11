@@ -10,18 +10,33 @@ function coinFlip() {
     }
 }
 
-console.log(coinFlip());
 
-
-// Creates button in the DOM
+// Creates elements in the DOM
 let container = document.getElementById('coin-flip');
+container.innerText = "How many coins do you want to flip?"
+
+let input = document.createElement('input');
+input.setAttribute('type', 'number');
+container.appendChild(input);
+
 let button = document.createElement('button');
 button.innerHTML = "Flip";
-container.append(button);
-let text = document.createElement('div');
-container.append(text);
+container.appendChild(button);
 
-// When button is clicked, flip coin
+let text = document.createElement('div');
+container.appendChild(text);
+
+// When button is clicked, flip coin(s)
 button.addEventListener('click', (event) => {
-    text.innerText = coinFlip();
+    let coinNum = input.value;
+    if (coinNum > 0) {
+        let coinStack = [];
+        for (let i = 0; i < coinNum; i++) {
+            coinStack.push(coinFlip())
+        }
+        text.innerText = coinStack.join(", ");
+        console.log(coinFlip());
+    } else {
+        text.innerText = "Please enter a valid number";
+    }
 })
