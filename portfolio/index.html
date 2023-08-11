@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rachel Greenwood Portfolio</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="index.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DotGothic16">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Silkscreen">
+    </head>
+    <body>
+        <nav><header><a href="#home">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a></header><p id="now-playing">Now Playing: Solar Sailer - Daft Punk</p><audio style="display:none" autoplay loop><source src="15 Solar Sailer.wav"></audio></nav>
+        <!--"15 Solar Sailer.wav-->
+        <!--"698343__timkahn__selino.wav"-->
+        <main>
+            <div id="home" class="header">
+                <h1>Hi, I'm Rachel Greenwood</h1>
+                <h2>A Software Engineering Student at Techtonica</h2>
+            </div>
+            <div id="about">
+                <div class="first-impression">
+                    <img class="me" src="red.jpeg" width="50px">
+                    <p>I'm on week 3 of learning the PERN stack in Techtonica's 6 month program to help women and non-binary adults break into the tech industry</p>
+                </div>
+                <div class="columns">
+                    <p class="section1">I have a background as a Choir Director. My musical training lends to my software development capabilities:</p>
+                    <ul class="bullet1">
+                        <li>Multi-tasking</li>
+                        <li>Focus</li>
+                    </ul>
+                    <p class="section2">And being a teacher, specifically a Choir Director, has given me many useful skills:</p>
+                    <ul class="bullet2">
+                        <li>Adaptability</li>
+                        <li>Ability to explain difficult technincal concepts in simple ways</li>
+                        <li>Aptitude for leadership</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="projects">
+                <h2>My Projects</h2>
+                <a href="https://github.com/RachelGreenwood/TechtonicaAssignments/tree/main/recipe-page"><img src="Recipe Photo.png" alt="a photo of the recipe page project"></a>
+                <p>Recipe Page: An interactive recipe page for peanut butter chocolate chip cookies</p>
+            </div>
+            <h2>Let's Get in Touch!</h2>
+            <div id="contact" class="contact">
+                <div class="social">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png" alt="The Gmail logo">
+                    <p>Gmail: rachelgreenwood3301@gmail.com</p>
+                </div>
+                <div class="social">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" alt="The Linkedin logo">
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/rachel-greenwood3301/">Rachel Greenwood</a></p>
+                </div>
+                <div class="social">
+                    <img src="https://duet-cdn.vox-cdn.com/thumbor/0x0:3001x2001/2400x1600/filters:focal(1501x1001:1502x1002):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/24805890/STK160_X_Twitter_008.jpg" alt="The Twitter/X logo">
+                    <p id="twitter">Twitter/X: <a href="https://twitter.com/RachelGreenw00d">RachelGreenw00d</a></p>
+                </div>
+                <div class="social">
+                    <img src="https://miro.medium.com/v2/resize:fit:1400/1*psYl0y9DUzZWtHzFJLIvTw.png">
+                    <p>Medium: <a href="https://medium.com/@rachelgreenwood3301">rachel-greenwood3301</a></p>
+                </div>
+                <div class="social">
+                    <img src="https://camo.githubusercontent.com/04263260beb77f58217485aa81c579335d6909177224a38e5f273f07490870f1/68747470733a2f2f7374617469632e7665637465657a792e636f6d2f73797374656d2f7265736f75726365732f70726576696577732f3030362f3839322f3632352f6f726967696e616c2f646973636f72642d6c6f676f2d69636f6e2d656469746f7269616c2d667265652d766563746f722e6a7067" alt="The Discord logo"></img>
+                    <p>Discord: <a href="https://discordapp.com/users/QueenOfElves#3950">QueenOfElves#3950</a></p>
+                </div>
+                <div class="social">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="The Github logo">
+                    <p>GitHub: <a href="https://github.com/RachelGreenwood">RachelGreenwood</a></p>
+                </div>
+            </div>
+            <div class="mailing-list">
+                <form>
+                    <p>Sign up to my mailing list (field marked with a * are required):</p>
+                        <label for="name">*First Name: 
+                            <input id="name" type="text" required>
+                        </label>
+                        <label for="last">*Last Name: 
+                            <input id="last" type="text" required>
+                        </label>
+                        <label for="email">*Email: 
+                            <input id="email" type="email" required>
+                        </label>
+                        <label for="phone">Phone: 
+                            <input id="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                        </label>
+                        <label for="address">State: 
+                            <select id="address"></select>
+                        </label>
+                        <button type="submit">Submit</button>
+                </form>
+            </div>
+        </main>
+        <footer></footer>
+        <script src="index.js"></script>
+    </body>
+</html>
