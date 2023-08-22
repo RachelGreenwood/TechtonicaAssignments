@@ -1,10 +1,10 @@
 const express = require('express');
-const art = require('./BOOKS');
+const art = require('./art');
 const app = express();
 
-app.get('/', (req, res) => {
-    res.send('Hello, World!');
-  });
+// app.get('/', (req, res) => {
+//     res.send('Hello, World!');
+//   });
 
 app.get('/', (req, res) => {
   res.json(art);

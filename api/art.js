@@ -66,5 +66,5 @@ const BOOKS = [{
 }
 ]
 
- export default BOOKS;
  module.exports = BOOKS;
+ // export default BOOKS;
