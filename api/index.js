@@ -1,6 +1,11 @@
 const express = require('express');
 const art = require('./art');
+
 const app = express();
+const port = process.env.PORT || 3000;
+
+// Middleware
+app.use(cors());
 
 // app.get('/', (req, res) => {
 //     res.send('Hello, World!');
@@ -17,7 +22,6 @@ app.post('/', (req, res) => {
   res.json(arr);
 })
 
-  const port = process.env.PORT || 3000;
   app.listen(port, () => {
     console.log(`API server listening on port ${port}`);
   });
