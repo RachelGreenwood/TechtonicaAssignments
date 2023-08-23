@@ -19,6 +19,10 @@ app.get('/art/:isbn', (req, res) => {
   res.json(artwork);
 })
 
+app.all('*', (req, res) => {
+  res.status(404).send('Sorry, that\'s an invalid URL');
+})
+
 app.post('/', (req, res) => {
   let arr = art;
   console.log(req.body);
