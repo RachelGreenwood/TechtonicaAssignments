@@ -4,16 +4,13 @@ const art = require('./art');
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Middleware
-app.use(cors());
-const _dirname = path.resolve();
-
-// app.get('/', (req, res) => {
-//     res.send('Hello, World!');
-//   });
-
-app.get('/', (req, res) => {
+app.get('/art', (req, res) => {
   res.json(art);
+})
+
+app.get('/art/:isbn', (req, res) => {
+  const { isbn } = req.params;
+  console.log(req.params);
 })
 
 app.post('/', (req, res) => {
