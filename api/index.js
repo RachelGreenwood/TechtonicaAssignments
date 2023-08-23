@@ -6,6 +6,7 @@ const port = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors());
+const _dirname = path.resolve();
 
 // app.get('/', (req, res) => {
 //     res.send('Hello, World!');
